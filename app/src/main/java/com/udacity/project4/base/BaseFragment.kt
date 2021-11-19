@@ -21,7 +21,7 @@ abstract class BaseFragment : Fragment() {
             Toast.makeText(activity, it, Toast.LENGTH_LONG).show()
         })
         viewModel.showToast.observe(this, Observer {
-            Toast.makeText(activity, it, Toast.LENGTH_LONG).show()
+            Toast.makeText(activity, it, Toast.LENGTH_SHORT).show()
         })
         viewModel.showSnackBar.observe(this, Observer {
             Snackbar.make(this.view!!, it, Snackbar.LENGTH_LONG).show()

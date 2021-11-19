@@ -43,4 +43,8 @@
     <string name="error_adding_geofence">Error Happened, Can\'t Add Geofence</string>
     <string name="unexpected_failure">Something unexpected happens!</string>
     <string name="login_unsuccessful_msg">Error during login</string>
+    <string name="layout_details_title">Title:</string>
+    <string name="layout_details_description">Description:</string>
+    <string name="layout_reminder_details">Reminder Details</string>
+    <string name="layout_details_location">Location:</string>
 </resources>
